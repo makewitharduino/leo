@@ -22,7 +22,7 @@ function run(env){
     out.error('Unable to find Arduino IDE path. You can set it manually by running `leo config set ide.path \'/some/path\'`');
     process.exit(1);
   }
-  
+
   if(!env.board){
     out.error('Board not specified. -b');
     process.exit(1);
@@ -39,7 +39,7 @@ function run(env){
     process.exit(1);
   }
 
-  // Setup build 
+  // Setup build
   var setup = board.platform(config, board.build, board);
 
   var b = new LeoUpload(setup);

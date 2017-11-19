@@ -21,6 +21,7 @@
   "author": "Adam Magaluk <AdamMagaluk@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "adm-zip": "^0.4.7",
     "async": "^2.5.0",
     "colors": "^1.1.2",
     "commander": "^2.11.0",
@@ -35,6 +36,7 @@
     "pad": "^2.0.1",
     "prompt": "^1.0.0",
     "rc": "^1.2.2",
+    "request": "^2.83.0",
     "rmdir-recursive": "0.0.1",
     "serialport": "^6.0.4",
     "split": "^1.0.1",
